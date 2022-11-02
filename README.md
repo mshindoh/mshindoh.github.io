@@ -1,2 +1,5 @@
-# Project_site_test
-GitHub Pages Project site testing
+# Project_site
+
+GitHub Pages Project site
+
+[Access the website](https://mshindoh.github.io/ "Mizuki Shindoh")
