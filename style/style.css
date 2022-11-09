@@ -1,0 +1,9 @@
+body {
+    font-family: Georgia, serif;
+    background-color: #ededf9;
+}
+
+#name {
+    text-decoration: none;
+    color: rgb(44, 55, 134);
+}
