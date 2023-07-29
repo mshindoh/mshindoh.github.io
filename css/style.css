@@ -216,13 +216,16 @@ p {
   font-size: 0.3em;
   font-weight: 400;
   color: #999999;
-  text-transform: lowercase;
+  /* text-transform: lowercase; */
   font-family: "Oxygen", sans-serif;
 }
 
 .navbar-nav {
+  margin-top: 40px;
+  margin-bottom: 0;
   text-transform: capitalize;
   font-weight: 400;
+  /* background-color: #eee; */
 }
 
 .navbar-default {
@@ -260,7 +263,7 @@ p {
     font-size: 0.2em;
     font-weight: 400;
     color: #999999;
-    text-transform: lowercase;
+    /* text-transform: lowercase; */
     font-family: "Oxygen", sans-serif;
   }
   .navbar {
@@ -814,7 +817,7 @@ figure.effect-moses:hover img {
   color: #a3a3a3;
   text-align: center;
   width: 83%;
-  margin: 0 auto;
+  margin: 0;
   background: transparent;
   margin-top: 23px;
 }
@@ -891,8 +894,9 @@ h5 .date {
 
 .box-contact {
   font-family: "Oxygen", sans-serif;
-  border-top: 1px solid #dddddd;
+  /* border-top: 1px solid #dddddd; */
   margin-top: 68px;
+  text-align: center;
 }
 
 #contact-area {
