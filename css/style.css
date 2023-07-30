@@ -10,14 +10,6 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-/* html,
-body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-} */
-
 /* Reference: https://stackoverflow.com/questions/28411499/disable-scrolling-on-body */
 
 .index-page body {
@@ -107,7 +99,7 @@ p {
 }
 
 h1 {
-  font-family: "Qwigley", Helvetica, Sans-serif;
+  font-family: "Qwigley", Helvetica, sans-serif;
   font-size: 2.2em;
   font-weight: 600;
   color: #4f4d47;
@@ -201,7 +193,7 @@ p {
 .navbar-default .navbar-brand {
   padding: 10px 12px 14px;
   text-align: center;
-  font-family: "Qwigley", Helvetica, Sans-serif;
+  font-family: "Crimson Pro", serif, "Qwigley", Helvetica, Sans-serif;
   font-size: 2.4em;
   line-height: normal;
   color: #4f4d47;
