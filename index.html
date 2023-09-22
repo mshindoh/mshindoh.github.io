@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Mizuki Shindoh - Home</title>
+    <title>Mizuki Shindoh - Resume</title>
 
     <meta charset="utf-8">
     <meta name="description" content="">
@@ -24,23 +24,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@300;400&family=Crimson+Text&family=Work+Sans:wght@300;400&display=swap" rel="stylesheet">
+
     <!-- Font awesome -->
     <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
 </head>
 
-<!-- Reference: https://stackoverflow.com/questions/28411499/disable-scrolling-on-body -->
-
 <body>
-    <!--index-page-->
 
     <!-- Start wrapper -->
     <div class="wrapper">
-        <!--mainwrapper-->
         <div class="col-md-12">
             <!-- Logo -->
             <div class="brand wow fadeIn" data-wow-delay="0.1s"> Mizuki Shindoh
-                <div class="title"> - ML Intern | Aspiring ML & Software Engineer - </div>
+                <div class="title"> - Junior Software Engineer & ML Intern - </div>
             </div>
 
             <!-- Navigation -->
@@ -54,9 +51,10 @@
                     <span class="icon-bar"></span>
                 </button>
                     <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
-                    <div class="navbar-brand"><a href="#">Mizuki Shindoh</a>
-                        <div class="title"> - ML Intern | Aspiring ML & Software Engineer - </div>
+                    <div class="navbar-brand"><a href="">Mizuki Shindoh</a>
+                        <div class="title"> - Junior Software Engineer & ML Intern - </div>
                     </div>
+
                 </div>
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -84,7 +82,7 @@
                         <li>
                             <a href="collection.html">Portfolio</a>
                         </li>
-                        <li>
+                        <li class="active">
                             <a href="resume.html">Resume</a>
                         </li>
                         <!-- <li>
@@ -99,39 +97,174 @@
             </nav>
             <!-- End nav -->
 
-            <!-- Start main image and the text below -->
-            <div class="col-md-12 wow fadeIn" data-wow-delay="0.1s">
-                <!-- <img src="img/main-banner.jpg" alt="img" class="resp main-image" /> -->
-                <h1>Welcome</h1>
+
+            <!-- Start resume -->
+            <div class="margin-resume wow fadeIn" data-wow-delay="0.1s">
+                <h3 class="heading-inner">Resume</h3>
                 <div class="hr"></div>
-                <h2>
-                    Thank you for visiting!
-                    <br>Please take a moment to browse through my projects and learn about my experiences.
-                </h2>
-                <div class="text-center">
-                    <a href="collection.html" class="home-btn btn">View Portfolio</a>
+
+
+
+                <!--WORK DESCRIPTION -->
+                <div class="container desc">
+                    <div class="row">
+                        <div class="col-lg-2 col-lg-offset-1">
+                            <h4>Work Experience</h4>
+                        </div>
+                        <div class="col-lg-6">
+                            <p><span class="e-heading">Machine Learning Intern</span><br/> BC Cancer <br/>
+                            </p>
+                            <p><span class="more">Contributed to a <a href="https://earlydetection.ca/natural-language-processing-applications-in-health-care/"><u>Natural Language Processing project</u></a> to develop Machine Learning models for text mining on pathology reports</span></p>
+                            <p><span class="more">Executed Named Entity Recognition on pathology reports and assessed various pre-trained Machine Learning models of spaCy and other industry-leading solutions such as Spark NLP</span></p>
+                            <p><span class="more">Demonstrated proficiency in classification with TensorFlow and spaCy by enhancing the accuracy of pathology reports classification by 45% on average</span></p>
+                            <p><span class="more">Python | Jupyter Notebook | spaCy | TensorFlow | Spark NLP | Healthcare NLP </span></p>
+                        </div>
+                        <div class="col-lg-3">
+                            <p><span class="date">May - Aug 2023</span></p>
+                        </div>
+                    </div>
+                    <!-- /row -->
+                    <br>
+                    <div class="line-symbol"></div>
                 </div>
+                <!-- /container -->
+
+
+                <!-- AWARDS DESCRIPTION -->
+                <div class="container desc">
+                    <div class="row">
+                        <div class="col-lg-2 col-lg-offset-1">
+                            <h4>Certifications</h4>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <p>
+                                <span class="e-heading">Healthcare NLP for Data Scientists Certification</span> | <a href="https://johnsnowlabs.coassemble.com/certificate/MTI3NzQyXzE0NjkzNzA"><u>View</u></a><br/> John Snow Labs <br/>
+                            </p>
+                        </div>
+                        <div class="col-lg-3">
+                            <p>
+                                <span class="date">Aug 3, 2023</span></p>
+                        </div>
+
+                        <div class="col-lg-6 col-lg-offset-3">
+                            <p>
+                                <span class="e-heading">Spark NLP for Data Scientists Certification</span> | <a href="https://johnsnowlabs.coassemble.com/certificate/MTI3NzQwXzE0NjkzNzA"><u>View</u></a><br/> John Snow Labs <br/>
+                            </p>
+                        </div>
+                        <div class="col-lg-3">
+                            <p>
+                                <span class="date">Jul 28, 2023</span></p>
+                        </div>
+
+                        <div class="col-lg-6 col-lg-offset-3">
+                            <p><span class="e-heading">TCPS 2: CORE-2022</span><br/> Panel on Research Ethics
+                            </p>
+                        </div>
+                        <div class="col-lg-3">
+                            <p><span class="date">May 11, 2023</span></p>
+                        </div>
+
+                    </div>
+                    <!-- /row -->
+                    <br>
+                    <div class="line-symbol"></div>
+                </div>
+                <!-- /container -->
+
+
+                <!--EDUCATION DESCRIPTION -->
+                <div class="container desc">
+                    <div class="row">
+                        <div class="col-lg-2 col-lg-offset-1">
+                            <h4>Education</h4>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <p>
+                                <span class="e-heading">Bachelor of Science in Computer Science</span><br/> University of British Columbia | Vancouver
+                            </p>
+                        </div>
+                        <div class="col-lg-3">
+                            <p>
+                                <span class="date">MAY 2025</span><br/>
+                            </p>
+                        </div>
+
+                        <div class="col-lg-6 col-lg-offset-3">
+                            <p>
+                                <span class="e-heading">Associate of Science Degree in Computer Science</span>
+                                <br/> Langara College | Vancouver<br/><b>Dean's Honour Roll</b>
+                            </p>
+                        </div>
+                        <div class="col-lg-3">
+                            <p>
+                                <span class="date">Aug 2021</span><br/>
+                            </p>
+                        </div>
+                        <!-- <div class="col-lg-3">
+                            <p><span class="date">GRADUATED IN JUNE 2013</span></p>
+                        </div> -->
+                    </div>
+                    <!-- /row -->
+                    <br>
+                    <div class="line-symbol"></div>
+                    <!-- <br><br> -->
+                </div>
+                <!-- /container -->
+
+                <!-- AWARDS DESCRIPTION -->
+                <div class="container desc">
+                    <div class="row">
+                        <div class="col-lg-2 col-lg-offset-1">
+                            <h4>Professional Development</h4>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <p>
+                                <span class="e-heading">Socket Programming in Python Part 1: Handling Connections</span> | <a href="https://realpython.com/certificates/8b124741-468f-44b2-a841-c11c39a19a13/"><u>View</u></a><br/> Real Python <br/>
+                            </p>
+                            <p>
+                                <span class="more">Python </span>
+                            </p>
+                        </div>
+                        <div class="col-lg-3">
+                            <p>
+                                <span class="date">Aug 20, 2023</span>
+                            </p>
+                        </div>
+
+                        <div class="col-lg-6 col-lg-offset-3">
+                            <p>
+                                <span class="e-heading">Intro to Deep Learning</span> | <a href="https://www.kaggle.com/learn/certification/mshindoh/intro-to-deep-learning"><u>View</u></a><br/> Kaggle <br/>
+                            </p>
+                            <p>
+                                <span class="more">Python | TensorFlow </span>
+                            </p>
+                        </div>
+                        <div class="col-lg-3">
+                            <p>
+                                <span class="date">Aug 4, 2023</span>
+                            </p>
+                        </div>
+
+                        <div class="col-lg-6 col-lg-offset-3">
+                            <p>
+                                <span class="e-heading">Elements of AI 2 ECTS credits</span> | <a href="https://certificates.mooc.fi/validate/3qb87fx6j6g"><u>View</u></a><br/> University of Helsinki
+                            </p>
+                        </div>
+                        <div class="col-lg-3">
+                            <p><span class="date">MAY 21, 2023</span></p>
+                        </div>
+                    </div>
+                    <!-- /row -->
+                    <br>
+                    <!-- <div class="line-symbol"></div> -->
+                </div>
+                <!-- /container -->
+
             </div>
-            <!-- End main image and the text below -->
-
-            <!-- Start left column -->
-            <!-- <div class="box-home col-md-4 col-xs-offset-1">
-                <h3>
-                    <span class="text-left">The right hat may also enliven our</span> imagination of the past...an old-fashioned cloche, a picture hat, or a toque trimmed with a pouf of polka-dotted veiling is just enough to make us feel as if we were
-                    living in another, romantic age.
-                    <a href="news.html">read more <i class="fa fa-angle-right"></i></a>
-                </h3>
-            </div> -->
-            <!-- End left column -->
-
-            <!-- Start right image -->
-            <!-- <div class="col-md-6 wow fadeIn" data-wow-delay="0.1s">
-                <div class="first">
-                    <div class="square wow fadeInDown" data-wow-delay=".5s"></div>
-                </div>
-                <img src="img/photo.jpg" alt="img" class="photo-home" />
-            </div> -->
-            <!-- End right image -->
+            <!-- End margin -->
 
             <!-- Start footer -->
             <div class="footer col-md-6 col-xs-offset-3">
@@ -142,6 +275,7 @@
                 </h5>
             </div>
             <!-- End footer -->
+
 
         </div>
         <!-- End col-md-12 -->
