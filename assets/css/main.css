@@ -128,7 +128,7 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-    content: '';
+    content: "";
     content: none;
 }
 
@@ -2036,7 +2036,7 @@ form>.fields>.field.half {
 }
 
 form>.fields>.field.third {
-    width: calc(100%/3 - 0.5rem);
+    width: calc(100% / 3 - 0.5rem);
 }
 
 form>.fields>.field.quarter {
@@ -2175,7 +2175,7 @@ input[type="radio"]+label:before {
     text-rendering: auto;
     line-height: 1;
     text-transform: none !important;
-    font-family: 'Font Awesome 5 Free';
+    font-family: "Font Awesome 5 Free";
     font-weight: 900;
 }
 
@@ -2183,7 +2183,7 @@ input[type="checkbox"]+label:before,
 input[type="radio"]+label:before {
     border-radius: 0;
     border: solid 2px;
-    content: '';
+    content: "";
     display: inline-block;
     font-size: 0.8rem;
     height: 1.8rem;
@@ -2197,7 +2197,7 @@ input[type="radio"]+label:before {
 
 input[type="checkbox"]:checked+label:before,
 input[type="radio"]:checked+label:before {
-    content: '\f00c';
+    content: "\f00c";
 }
 
 input[type="checkbox"]+label:before {
@@ -2209,19 +2209,19 @@ input[type="radio"]+label:before {
 }
 
 ::-webkit-input-placeholder {
-    opacity: 1.0;
+    opacity: 1;
 }
 
 :-moz-placeholder {
-    opacity: 1.0;
+    opacity: 1;
 }
 
 ::-moz-placeholder {
-    opacity: 1.0;
+    opacity: 1;
 }
 
 :-ms-input-placeholder {
-    opacity: 1.0;
+    opacity: 1;
 }
 
 label {
@@ -2317,7 +2317,7 @@ input[type="radio"]:focus+label:before {
     text-rendering: auto;
     line-height: 1;
     text-transform: none !important;
-    font-family: 'Font Awesome 5 Free';
+    font-family: "Font Awesome 5 Free";
     font-weight: 400;
 }
 
@@ -2334,7 +2334,7 @@ input[type="radio"]:focus+label:before {
 }
 
 .icon.brands:before {
-    font-family: 'Font Awesome 5 Brands';
+    font-family: "Font Awesome 5 Brands";
 }
 
 
@@ -2714,7 +2714,7 @@ header.major>.date {
 
 header.major>.date:before,
 header.major>.date:after {
-    content: '';
+    content: "";
     display: block;
     position: absolute;
     top: 50%;
@@ -2901,7 +2901,7 @@ table.alt tbody tr td {
     text-rendering: auto;
     line-height: 1;
     text-transform: none !important;
-    font-family: 'Font Awesome 5 Free';
+    font-family: "Font Awesome 5 Free";
     font-weight: 900;
 }
 
@@ -2913,12 +2913,12 @@ table.alt tbody tr td {
 }
 
 .pagination .previous:before {
-    content: '\f104';
+    content: "\f104";
     margin-right: 0.9375em;
 }
 
 .pagination .next:before {
-    content: '\f105';
+    content: "\f105";
     float: right;
     margin-left: 0.9375em;
 }
@@ -3010,7 +3010,7 @@ table.alt tbody tr td {
     -ms-transition-delay: 0.75s;
     transition-delay: 0.75s;
     background: #1e252d;
-    content: '';
+    content: "";
     display: block;
     height: 100%;
     left: 0;
@@ -4251,12 +4251,12 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
     text-rendering: auto;
     line-height: 1;
     text-transform: none !important;
-    font-family: 'Font Awesome 5 Free';
+    font-family: "Font Awesome 5 Free";
     font-weight: 900;
 }
 
 #navPanelToggle:before {
-    content: '\f0c9';
+    content: "\f0c9";
     margin-right: 0.5rem;
 }
 
@@ -4365,12 +4365,12 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
     text-rendering: auto;
     line-height: 1;
     text-transform: none !important;
-    font-family: 'Font Awesome 5 Free';
+    font-family: "Font Awesome 5 Free";
     font-weight: 900;
 }
 
 #navPanel .close:before {
-    content: '\f00d';
+    content: "\f00d";
     font-size: 1.25rem;
 }
 
