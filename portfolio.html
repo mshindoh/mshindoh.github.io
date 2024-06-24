@@ -11,6 +11,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
+    <!-- <link rel="stylesheet" href="assets/css/custom.css" /> -->
     <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 </head>
 
@@ -45,21 +46,119 @@
         <!-- Main -->
         <div id="main">
 
-            <!-- Post -->
-            <section class="post">
-                <header class="major">
-                    <span class="date">April 25, 2017</span>
-                    <h1>This is a<br /> Generic Page</h1>
-                    <p>Aenean ornare velit lacus varius enim ullamcorper proin aliquam<br /> facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor<br /> amet nullam sed etiam veroeros.</p>
-                </header>
-                <div class="image main"><img src="images/pic01.jpg" alt="" /></div>
-                <p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur
-                    id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant
-                    morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur sapien risus, commodo eget turpis at, elementum convallis enim turpis, lorem ipsum dolor sit amet nullam.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam
-                    venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque
-                    habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus. Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis
-                    in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum.</p>
+            <!-- Filters -->
+            <!-- <div class="actions">
+                <button class="button primary" onclick="filterSelection('all')">All</button>
+                <button class="button" onclick="filterSelection('web')">Web Development</button>
+                <button class="button" onclick="filterSelection('app')">Software Development</button>
+                <button class="button" onclick="filterSelection('design')">AI/ML</button>
+            </div> -->
+
+            <ul class="actions">
+                <li onclick="filterSelection('all')"><a class="button primary">All</a></li>
+                <li onclick="filterSelection('software')"><a class="button">Software</a></li>
+                <li onclick="filterSelection('web')"><a class="button">Web Development</a></li>
+                <li onclick="filterSelection('aiml')"><a class="button">AI/ML</a></li>
+            </ul>
+
+            <!-- Posts -->
+            <section class="posts">
+                <article>
+                    <header>
+                        <!-- <span class="date">April 24, 2017</span> -->
+                        <h2><a href="#">Insight UBC</a></h2>
+                    </header>
+                    <a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
+                    <p>This is a web application with a query engine for data of 60,000 courses at UBC.</p>
+                    <p>TypeScript | Node.js | Express | Mocha | Chai</p>
+                    <!-- <ul class="actions special">
+                        <li><a href="#" class="button">Full Story</a></li>
+                    </ul> -->
+                </article>
+
+                <article>
+                    <header>
+                        <!-- <span class="date">April 22, 2017</span> -->
+                        <h2><a href="#">Bookshelf</a></h2>
+                    </header>
+                    <a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
+                    <p>This is a desktop application that allows the user to store and edit information of books.</p>
+                    <p>Java | JUnit | JSON</p>
+                    <ul class="actions special">
+                        <!-- <li><a href="#" class="button">Full Story</a></li> -->
+                        <li><a href="https://github.com/mshindoh/Bookshelf-Application" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+                    </ul>
+                </article>
+
+                <article>
+                    <header>
+                        <!-- <span class="date">April 18, 2017</span> -->
+                        <h2><a href="#">Audio Streaming Platform Database</a></h2>
+                    </header>
+                    <a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
+                    <p>This is a web application to perform customized and complex operations on the database of audio streaming platform.</p>
+                    <p>As a team of three, we collaboratively designed and implemented a robust relational database in SQL.</p>
+                    <p>SQL | MySQL | TypeScript</p>
+                    <!-- <ul class="actions special">
+                        <li><a href="#" class="button">Full Story</a></li>
+                    </ul> -->
+                </article>
+
+                <article>
+                    <header>
+                        <!-- <span class="date">April 11, 2017</span> -->
+                        <h2><a href="#">Fastr Food</a></h2>
+                    </header>
+                    <a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
+
+                    <p>This is a web application that gathers information on waiting times at different dining halls and provides users with the fastest way to get food.</p>
+                    <p>Submitted to <a href="https://mhacks-14.devpost.com/" target="_blank"><u>MHacks 14</u></a></p>
+                    <ul style="text-align: left;">
+                        <li>Best Beginner Hack</li>
+                        <li>Use of Google Cloud - Use any Google Cloud product - 2nd place</li>
+                    </ul>
+                    <p>JavaScript | HTML/CSS | jQuery | Bootstrap | Firebase | Google maps</p>
+                    <ul class="actions special">
+                        <!-- <li><a href="#" class="button">Full Story</a></li> -->
+                        <!-- <li><a class="button" href="https://github.com/iamr2003/MHACKS-14-fastrfood" target="_blank">GitHub</a></li> -->
+                        <li><a href="https://github.com/mshindoh/Bookshelf-Application" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+
+                    </ul>
+                    <ul class="actions special">
+                        <li><a class="button" href="https://devpost.com/software/fastr-food" target="_blank">Hackathon page</a></li>
+                        <li><a class="button" href="https://mhacks-14.web.app/" target="_blank">Application</a></li>
+                    </ul>
+                </article>
+
+                <article>
+                    <header>
+                        <!-- <span class="date">April 7, 2017</span> -->
+                        <h2><a href="#">Talking Mate</a></h2>
+                    </header>
+                    <a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
+                    <p>This is a Discord bot that allows the user to have simple conversations with the bot on a Discord channel</p>
+                    <p>Submitted to <a href="https://hackapalooza.dev/" target="_blank"><u>Hackapalooza 2021</u></a></p>
+                    <p>JavaScript | Node.js | Discord.js</p>
+                    <ul class="actions special">
+                        <!-- <li><a href="#" class="button">Full Story</a></li> -->
+                        <li><a href="https://github.com/mshindoh/Talking-mate" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+                    </ul>
+                </article>
+
+                <article>
+                    <header>
+                        <!-- <span class="date">April 7, 2017</span> -->
+                        <h2><a href="#">NLP with Disaster Tweets</a></h2>
+                    </header>
+                    <a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
+                    <p>Performed text classifications on Twitter posts to identify Tweets about disaster with both spaCy and Tensorflow</p>
+                    <p>Submitted to <a href="https://www.kaggle.com/competitions/nlp-getting-started/overview" target="_blank"><u>Kaggle Competitions</u></a></p>
+                    <p>Python | spaCy | TensorFlow</p>
+                    <ul class="actions special">
+                        <li><a href="https://github.com/mshindoh/Kaggle_practice_and_competitions/blob/main/nlp-classification-disaster-tweet.ipynb" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+                        <li><a href="hhttps://www.kaggle.com/code/mshindoh/nlp-classification-disaster-tweet" target="_blank" class="icon brands fa-kaggle"><span class="label">Kaggle Notebook</span></a></li>
+                    </ul>
+                </article>
             </section>
 
         </div>
