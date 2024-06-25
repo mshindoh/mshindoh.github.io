@@ -1,0 +1,7 @@
+.portfolioItem {
+  display: none;
+}
+
+.portfolioItem.show {
+  display: block;
+}
