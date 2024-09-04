@@ -58,13 +58,14 @@
                 <p><b>Technologies</b>: HTML/CSS, TypeScript, Node.js, Mocha, Chai<br/>
                     <b>Keywords</b>: Agile & Scrum Methodologies, Test-Driven Development (TDD), RESTful API</p>
 
+                <br>
                 <h2>User Stories</h2>
                 <h3>Using the UI, the user can...</h3>
                 <ul>
                     <li>add datasets of sections and rooms, so that they can store and manage information on the website and, later on, use them for querying the information.</li>
                     <li>specify the number of sections to get as the result of a query so that they can get only the necessary amount of information and avoid seeing an overwhelming number of results.</li>
                 </ul>
-                <h3>The REST endpoints allows user to...</h3>
+                <h3>The REST endpoints allows to...</h3>
                 <ul>
                     <li>PUT: submit a set of course/room data as a zip file.</li>
                     <li>DELETE: deletes an existing dataset.</li>
@@ -72,7 +73,26 @@
                     <li>GET: obtain a list of existing datasets.</li>
                 </ul>
 
+                <br>
                 <h2>Development</h2>
+                <h3>Test-driven development (TDD)</h3>
+                <ul>
+                    <li><a link="https://mochajs.org/">Mocha Test Environment</a></li>
+                    <li><a link="https://www.chaijs.com/">Chai Expectations</a></li>
+                </ul>
+
+                <h3>Backend</h3>
+                <h4>Data Processor</h4>
+                <ul>
+                    <li>Takes a dataset as a zip file of JSON files and validates data</li>
+                    <li>Takes a dataset as HTML files and parse with <a href="https://github.com/inikulin/parse5">parse5</a></li>
+                    <li>Convert valid datasets to a data model</li>
+                </ul>
+                <h4>Query Engine</h4>
+                <ul>
+                    <li>Parses and validates a query in JSON format</li>
+                    <li>Collects data based on the query</li>
+                </ul>
 
                 <br/>
                 <ul class="actions">
