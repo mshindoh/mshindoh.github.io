@@ -1,216 +1,541 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <!--
 	Massively by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
+    <head>
+        <title>Mizuki Shindoh</title>
+        <link rel="icon" type="image/x-icon" href="/images/Mlogo.png" />
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="stylesheet" href="assets/css/custom.css" />
+        <noscript
+            ><link rel="stylesheet" href="assets/css/noscript.css"
+        /></noscript>
+    </head>
 
-<head>
-    <title>Mizuki Shindoh</title>
-    <link rel="icon" type="image/x-icon" href="/images/Mlogo.png">
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <link rel="stylesheet" href="assets/css/custom.css" />
-    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-</head>
+    <body class="is-preload">
+        <!-- Wrapper -->
+        <div id="wrapper">
+            <!-- Header -->
+            <header id="header">
+                <a href="index.html" class="logo">Mizuki Shindoh</a>
+                <p>Software Engineeiring | NLP Research in Healthcare</p>
+            </header>
 
-<body class="is-preload">
+            <!-- Nav -->
+            <nav id="nav">
+                <ul class="links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li class="active">
+                        <a href="portfolio.html">Portfolio</a>
+                    </li>
+                </ul>
+                <ul class="icons">
+                    <li>
+                        <a
+                            href="https://www.linkedin.com/in/mshindoh/"
+                            target="_blank"
+                            class="icon brands fa-linkedin"
+                            ><span class="label">LinkedIn</span></a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="https://github.com/mshindoh"
+                            target="_blank"
+                            class="icon brands fa-github"
+                            ><span class="label">GitHub</span></a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="mailto:shindohm0510@gmail.com"
+                            target="_blank"
+                            class="icon fa-envelope"
+                            ><span class="label">Email</span></a
+                        >
+                    </li>
+                </ul>
+            </nav>
 
-    <!-- Wrapper -->
-    <div id="wrapper">
-
-        <!-- Header -->
-        <header id="header">
-            <a href="index.html" class="logo">Mizuki Shindoh</a>
-            <p>Software Engineeiring | NLP Research in Healthcare</p>
-        </header>
-
-        <!-- Nav -->
-        <nav id="nav">
-            <ul class="links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="resume.html">Resume</a></li>
-                <li class="active"><a href="portfolio.html">Portfolio</a></li>
-                <!-- <li><a href="contact.html">Contact</a></li> -->
-                <!-- <li><a href="generic.html">Generic Page</a></li> -->
-                <!-- <li><a href="elements.html">Elements Reference</a></li> -->
-            </ul>
-            <ul class="icons">
-                <li><a href="https://www.linkedin.com/in/mshindoh/" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-                <li><a href="https://github.com/mshindoh" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-                <li><a href="mailto:shindohm0510@gmail.com" target="_blank" class="icon fa-envelope"><span class="label">Email</span></a></li>
-            </ul>
-        </nav>
-
-        <!-- Main -->
-        <div id="main">
-
-            <!-- Filters -->
-            <!-- <div class="actions">
+            <!-- Main -->
+            <div id="main">
+                <!-- Filters -->
+                <!-- <div class="actions">
                 <button class="button primary" onclick="filterSelection('all')">All</button>
                 <button class="button" onclick="filterSelection('web')">Web Development</button>
                 <button class="button" onclick="filterSelection('app')">Software Development</button>
                 <button class="button" onclick="filterSelection('design')">AI/ML</button>
-            </div> -->
+                </div> -->
 
-            <ul class="actions">
-                <li onclick="filterSelection('all')"><a class="button primary">All</a></li>
-                <li onclick="filterSelection('software')"><a class="button">Software</a></li>
-                <li onclick="filterSelection('web')"><a class="button">Web Development</a></li>
-                <li onclick="filterSelection('aiml')"><a class="button">AI/ML</a></li>
-            </ul>
+                <!-- PROJECT CLASSES -->
+                <ul class="actions">
+                    <li onclick="filterSelection('all')">
+                        <a class="button primary">All</a>
+                    </li>
+                    <li onclick="filterSelection('software')">
+                        <a class="button">Software</a>
+                    </li>
+                    <li onclick="filterSelection('web')">
+                        <a class="button">Web Development</a>
+                    </li>
+                    <li onclick="filterSelection('aiml')">
+                        <a class="button">AI/ML</a>
+                    </li>
+                </ul>
 
-            <!-- Posts -->
-            <section class="posts">
-                <article class="portfolioItem web software show">
-                    <header>
-                        <!-- <span class="date">April 24, 2017</span> -->
-                        <h2><a href="portfolio/insightubc.html">Insight UBC</a></h2>
-                    </header>
-                    <a href="portfolio/insightubc.html" class="image fit"><img src="portfolio/images/insightubc/insightubc.png" alt="" /></a>
-                    <p>This is a web application with a query engine for data of 60,000 courses and rooms at UBC.</p>
-                    <p>TypeScript | Node.js | Express | Mocha | Chai</p>
-                    <ul class="actions special">
-                        <li><a href="portfolio/insightubc.html" class="button">See more</a></li>
-                    </ul>
-                </article>
+                <!-- Posts -->
+                <section class="posts">
+                    <!-- Chrome DSL -->
+                    <article class="portfolioItem software show">
+                        <header>
+                            <!-- <span class="date">January - February, 2025</span> -->
+                            <h2>
+                                <a href="portfolio/dsl.html"
+                                    >Chrome Driver Domain Specific Language</a
+                                >
+                            </h2>
+                        </header>
+                        <a href="portfolio/dsl.html" class="image fit"
+                            ><img src="portfolio/images/pic01.jpg" alt=""
+                        /></a>
+                        <p>
+                            This is a programming language to help the user
+                            manage Chrome tabs with their custom configurations.
+                        </p>
+                        <p>Java, JUnit, Selenium, IntelliJ IDEA</p>
+                        <ul class="actions special">
+                            <li>
+                                <a href="portfolio/dsl.html" class="button"
+                                    >Learn more</a
+                                >
+                            </li>
+                        </ul>
+                    </article>
 
-                <article class="portfolioItem software show">
-                    <header>
-                        <!-- <span class="date">April 22, 2017</span> -->
-                        <h2><a href="#">Java Bookshelf</a></h2>
-                    </header>
-                    <a href="#" class="image fit"><img src="portfolio/images/java_bookshelf/java_bookshelf_gui_added.png" alt="" /></a>
-                    <p>The virtual bookshelf application provides the user with an experience similar to using a traditional bookshelf.</p>
-                    <p>Java | JUnit | Java AWT | Java Swing</p>
-                    <ul class="actions special">
-                        <li><a href="https://github.com/mshindoh/Bookshelf-Application" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-                    </ul>
-                    <ul class="actions special">
-                        <li><a href="portfolio/java_bookshelf.html" class="button">See more</a></li>
-                    </ul>
-                </article>
+                    <!-- Cocoa Delicacy -->
+                    <article class="portfolioItem software web show">
+                        <header>
+                            <!-- <span class="date">January - April, 2025</span> -->
+                            <h2>
+                                <a href="portfolio/python-analyzer.html"
+                                    >Cocoa Delicacy</a
+                                >
+                            </h2>
+                        </header>
+                        <a
+                            href="portfolio/python-analyzer.html"
+                            class="image fit"
+                            ><img src="portfolio/images/pic01.jpg" alt=""
+                        /></a>
+                        <p>
+                            Cocoa Delicacy is an interactive visualization story
+                            that explores the creation of the globally renowned
+                            delicacy - chocolate. Chocolate around the world
+                            range in a multitude of aspects, from flavour
+                            profiles to cocoa bean exporting/importing companies
+                            and cocoa composition. Cocoa Delicacy aims to allow
+                            the users to explore patterns behind chocolate
+                            productions. Users will also be able to view various
+                            trends of bean sources among different chocolate
+                            companies, explore different chocolate bars and
+                            ratings all over the world, and explore the impacts
+                            of ingredients on flavour notes.
+                        </p>
+                        <p>JavaScript, D3, HTML/CSS</p>
+                        <ul class="actions special">
+                            <li>
+                                <a
+                                    href="portfolio/python-analyzer.html"
+                                    class="button"
+                                    >Learn more</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="https://youtu.be/W5Uo-YMB5jA"
+                                    class="button"
+                                    >Watch Demo</a
+                                >
+                            </li>
+                        </ul>
+                    </article>
 
-                <article class="portfolioItem web software show">
-                    <header>
-                        <!-- <span class="date">April 18, 2017</span> -->
-                        <h2><a href="#">Audio Streaming Platform Database</a></h2>
-                    </header>
-                    <a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
-                    <p>This is a web application to perform customized and complex operations on the database of audio streaming platform.</p>
-                    <p>As a team of three, we collaboratively designed and implemented a robust relational database in SQL.</p>
-                    <p>SQL | MySQL | TypeScript</p>
-                    <!-- <ul class="actions special">
+                    <!-- Python Analyzer -->
+                    <article class="portfolioItem software web show">
+                        <header>
+                            <!-- <span class="date">March - April, 2025</span> -->
+                            <h2>
+                                <a href="portfolio/python-analyzer.html"
+                                    >Python Function Call Dynamic Analyzer</a
+                                >
+                            </h2>
+                        </header>
+                        <a
+                            href="portfolio/python-analyzer.html"
+                            class="image fit"
+                            ><img src="portfolio/images/pic01.jpg" alt=""
+                        /></a>
+                        <p>
+                            This is a web application that is focused on
+                            managing and analyzing execution summaries of a
+                            Python program, specifically tracking the execution
+                            counts of different function calls across various
+                            executions as well as crashes and infinite calls.
+                        </p>
+                        <p>Python, JavaScript, D3, HTML/CSS</p>
+                        <ul class="actions special">
+                            <li>
+                                <a
+                                    href="portfolio/python-analyzer.html"
+                                    class="button"
+                                    >Learn more</a
+                                >
+                            </li>
+                        </ul>
+                    </article>
+
+                    <!-- Insight UBC -->
+                    <article class="portfolioItem web software show">
+                        <header>
+                            <!-- <span class="date">April 24, 2017</span> -->
+                            <h2>
+                                <a href="portfolio/insightubc.html"
+                                    >Insight UBC</a
+                                >
+                            </h2>
+                        </header>
+                        <a href="portfolio/insightubc.html" class="image fit"
+                            ><img
+                                src="portfolio/images/insightubc/insightubc.png"
+                                alt=""
+                        /></a>
+                        <p>
+                            This is a web application with a query engine for
+                            data of 60,000 courses and rooms at UBC.
+                        </p>
+                        <p>TypeScript, Node.js, Express.js, Mocha, Chai</p>
+                        <ul class="actions special">
+                            <li>
+                                <a
+                                    href="portfolio/insightubc.html"
+                                    class="button"
+                                    >Learn more</a
+                                >
+                            </li>
+                        </ul>
+                    </article>
+
+                    <!-- Java Bookshelf -->
+                    <article class="portfolioItem software show">
+                        <header>
+                            <!-- <span class="date">April 22, 2017</span> -->
+                            <h2><a href="#">Java Bookshelf</a></h2>
+                        </header>
+                        <a href="#" class="image fit"
+                            ><img
+                                src="portfolio/images/java_bookshelf/java_bookshelf_gui_added.png"
+                                alt=""
+                        /></a>
+                        <p>
+                            The virtual bookshelf application provides the user
+                            with an experience similar to using a traditional
+                            bookshelf.
+                        </p>
+                        <p>Java, JUnit, Java AWT, Java Swing</p>
+                        <ul class="actions special">
+                            <li>
+                                <a
+                                    href="https://github.com/mshindoh/Bookshelf-Application"
+                                    target="_blank"
+                                    class="icon brands fa-github"
+                                    ><span class="label">GitHub</span></a
+                                >
+                            </li>
+                        </ul>
+                        <ul class="actions special">
+                            <li>
+                                <a
+                                    href="portfolio/java-bookshelf.html"
+                                    class="button"
+                                    >Learn more</a
+                                >
+                            </li>
+                        </ul>
+                    </article>
+
+                    <!-- Audio Streaming Platform Database SQL -->
+                    <article class="portfolioItem web software show">
+                        <header>
+                            <!-- <span class="date">April 18, 2017</span> -->
+                            <h2>
+                                <a href="#"
+                                    >Audio Streaming Platform Database</a
+                                >
+                            </h2>
+                        </header>
+                        <a href="#" class="image fit"
+                            ><img src="images/pic04.jpg" alt=""
+                        /></a>
+                        <p>
+                            This is a web application to perform customized and
+                            complex operations on the database of audio
+                            streaming platform.
+                        </p>
+                        <p>
+                            As a team of three, we collaboratively designed and
+                            implemented a robust relational database in SQL.
+                        </p>
+                        <p>SQL, MySQL, TypeScript</p>
+                        <!-- <ul class="actions special">
                         <li><a href="#" class="button">Full Story</a></li>
                     </ul> -->
-                </article>
+                    </article>
 
-                <article class="portfolioItem web show">
-                    <header>
-                        <!-- <span class="date">April 11, 2017</span> -->
-                        <h2><a href="#">Fastr Food</a></h2>
-                    </header>
-                    <a href="#" class="image fit"><img src="portfolio/images/fastr_food/fastr_food.png" alt="" /></a>
+                    <!-- Fastr Food -->
+                    <article class="portfolioItem web show">
+                        <header>
+                            <!-- <span class="date">April 11, 2017</span> -->
+                            <h2><a href="#">Fastr Food</a></h2>
+                        </header>
+                        <a href="#" class="image fit"
+                            ><img
+                                src="portfolio/images/fastr_food/fastr_food.png"
+                                alt=""
+                        /></a>
 
-                    <p>This is a web application that gathers information on waiting times at different dining halls and provides users with the fastest way to get food.</p>
-                    <p>Submitted to <a href="https://mhacks-14.devpost.com/" target="_blank"><u>MHacks 14</u></a></p>
-                    <ul style="text-align: left;">
-                        <li>Best Beginner Hack</li>
-                        <li>Use of Google Cloud - Use any Google Cloud product - 2nd place</li>
+                        <p>
+                            This is a web application that gathers information
+                            on waiting times at different dining halls and
+                            provides users with the fastest way to get food.
+                        </p>
+                        <p>
+                            Submitted to
+                            <a
+                                href="https://mhacks-14.devpost.com/"
+                                target="_blank"
+                                ><u>MHacks 14</u></a
+                            >
+                        </p>
+                        <ul style="text-align: left;">
+                            <li>Best Beginner Hack</li>
+                            <li>
+                                Use of Google Cloud - Use any Google Cloud
+                                product - 2nd place
+                            </li>
+                        </ul>
+                        <p>
+                            JavaScript, HTML/CSS, jQuery, Bootstrap, Firebase,
+                            Google maps
+                        </p>
+                        <ul class="actions special">
+                            <!-- <li><a href="#" class="button">Full Story</a></li> -->
+                            <!-- <li><a class="button" href="https://github.com/iamr2003/MHACKS-14-fastrfood" target="_blank">GitHub</a></li> -->
+                            <li>
+                                <a
+                                    href="https://github.com/mshindoh/Bookshelf-Application"
+                                    target="_blank"
+                                    class="icon brands fa-github"
+                                    ><span class="label">GitHub</span></a
+                                >
+                            </li>
+                        </ul>
+                        <ul class="actions special">
+                            <li>
+                                <a
+                                    class="button"
+                                    href="https://devpost.com/software/fastr-food"
+                                    target="_blank"
+                                    >Hackathon page</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    class="button"
+                                    href="https://mhacks-14.web.app/"
+                                    target="_blank"
+                                    >Application</a
+                                >
+                            </li>
+                        </ul>
+                    </article>
+
+                    <!-- Personal Website -->
+                    <article class="portfolioItem web show">
+                        <header>
+                            <!-- <span class="date">April 24, 2017</span> -->
+                            <h2><a href="#">Personal Website</a></h2>
+                        </header>
+                        <a href="#" class="image fit"
+                            ><img src="portfolio/images/index.png" alt=""
+                        /></a>
+                        <p>
+                            This is my renewed personal website. Based on a
+                            template from
+                            <a href="https://html5up.net/" target="_blank"
+                                >HTML5 UP</a
+                            >.
+                        </p>
+                        <p>HTML, CSS, JavaScript</p>
+                        <!-- <ul class="actions special">
+                        <li><a href="#" class="button">Full Story</a></li>
+                        </ul> -->
+                    </article>
+
+                    <!-- Talking Mate Discord -->
+                    <article class="portfolioItem software show">
+                        <header>
+                            <!-- <span class="date">April 7, 2017</span> -->
+                            <h2><a href="#">Talking Mate</a></h2>
+                        </header>
+                        <a href="#" class="image fit"
+                            ><img src="images/pic07.jpg" alt=""
+                        /></a>
+                        <p>
+                            This is a Discord bot that allows the user to have
+                            simple conversations with the bot on a Discord
+                            channel
+                        </p>
+                        <p>
+                            Submitted to
+                            <a href="https://hackapalooza.dev/" target="_blank"
+                                ><u>Hackapalooza 2021</u></a
+                            >
+                        </p>
+                        <p>JavaScript, Node.js, Discord.js</p>
+                        <ul class="actions special">
+                            <!-- <li><a href="#" class="button">Full Story</a></li> -->
+                            <li>
+                                <a
+                                    href="https://github.com/mshindoh/Talking-mate"
+                                    target="_blank"
+                                    class="icon brands fa-github"
+                                    ><span class="label">GitHub</span></a
+                                >
+                            </li>
+                        </ul>
+                    </article>
+
+                    <!-- NLP Disaster Tweets Classification -->
+                    <article class="portfolioItem aiml show">
+                        <header>
+                            <!-- <span class="date">April 7, 2017</span> -->
+                            <h2>
+                                <a href="#"
+                                    >NLP Disaster Tweets Text Classification</a
+                                >
+                            </h2>
+                        </header>
+                        <a href="#" class="image fit"
+                            ><img
+                                src="portfolio/images/disaster_tweet/disaster_tweet_train_val_accuracy.png"
+                                alt=""
+                        /></a>
+                        <p>
+                            Performed text classifications on Twitter posts to
+                            identify Tweets about disaster with both spaCy and
+                            Tensorflow
+                        </p>
+                        <p>
+                            Submitted to
+                            <a
+                                href="https://www.kaggle.com/competitions/nlp-getting-started/overview"
+                                target="_blank"
+                                ><u>Kaggle Competitions</u></a
+                            >
+                        </p>
+                        <p>Python, spaCy, TensorFlow</p>
+                        <ul class="actions special">
+                            <li>
+                                <a
+                                    href="https://github.com/mshindoh/Kaggle_practice_and_competitions/blob/main/nlp-classification-disaster-tweet.ipynb"
+                                    target="_blank"
+                                    class="icon brands fa-github"
+                                    ><span class="label">GitHub</span></a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.kaggle.com/code/mshindoh/nlp-classification-disaster-tweet/notebook"
+                                    target="_blank"
+                                    class="icon brands fa-kaggle"
+                                    ><span class="label"
+                                        >Kaggle Notebook</span
+                                    ></a
+                                >
+                            </li>
+                        </ul>
+                    </article>
+                </section>
+            </div>
+
+            <!-- Footer -->
+            <footer id="footer">
+                <section>
+                    <ul class="icons alt">
+                        <li>
+                            <a
+                                href="https://www.linkedin.com/in/mshindoh/"
+                                target="_blank"
+                                class="icon brands fa-linkedin"
+                                ><span class="label">LinkedIn</span></a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://github.com/mshindoh"
+                                target="_blank"
+                                class="icon brands fa-github"
+                                ><span class="label">GitHub</span></a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="mailto:shindohm0510@gmail.com"
+                                target="_blank"
+                                class="icon fa-envelope"
+                                ><span class="label">Email</span></a
+                            >
+                        </li>
                     </ul>
-                    <p>JavaScript | HTML/CSS | jQuery | Bootstrap | Firebase | Google maps</p>
-                    <ul class="actions special">
-                        <!-- <li><a href="#" class="button">Full Story</a></li> -->
-                        <!-- <li><a class="button" href="https://github.com/iamr2003/MHACKS-14-fastrfood" target="_blank">GitHub</a></li> -->
-                        <li><a href="https://github.com/mshindoh/Bookshelf-Application" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+                </section>
+            </footer>
 
-                    </ul>
-                    <ul class="actions special">
-                        <li><a class="button" href="https://devpost.com/software/fastr-food" target="_blank">Hackathon page</a></li>
-                        <li><a class="button" href="https://mhacks-14.web.app/" target="_blank">Application</a></li>
-                    </ul>
-                </article>
-
-                <article class="portfolioItem web show">
-                    <header>
-                        <!-- <span class="date">April 24, 2017</span> -->
-                        <h2><a href="#">Personal Website</a></h2>
-                    </header>
-                    <a href="#" class="image fit"><img src="portfolio/images/index.png" alt="" /></a>
-                    <p>This is my renewed personal website. Based on a template from <a href="https://html5up.net/" target="_blank">HTML5 UP</a>.</p>
-                    <p>HTML | CSS | JavaScript</p>
-                    <!-- <ul class="actions special">
-                      <li><a href="#" class="button">Full Story</a></li>
-                  </ul> -->
-                </article>
-
-                <article class="portfolioItem software show">
-                    <header>
-                        <!-- <span class="date">April 7, 2017</span> -->
-                        <h2><a href="#">Talking Mate</a></h2>
-                    </header>
-                    <a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-                    <p>This is a Discord bot that allows the user to have simple conversations with the bot on a Discord channel</p>
-                    <p>Submitted to <a href="https://hackapalooza.dev/" target="_blank"><u>Hackapalooza 2021</u></a></p>
-                    <p>JavaScript | Node.js | Discord.js</p>
-                    <ul class="actions special">
-                        <!-- <li><a href="#" class="button">Full Story</a></li> -->
-                        <li><a href="https://github.com/mshindoh/Talking-mate" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-                    </ul>
-                </article>
-
-                <article class="portfolioItem aiml show">
-                    <header>
-                        <!-- <span class="date">April 7, 2017</span> -->
-                        <h2><a href="#">NLP with Disaster Tweets</a></h2>
-                    </header>
-                    <a href="#" class="image fit"><img src="portfolio/images/disaster_tweet/disaster_tweet_train_val_accuracy.png" alt="" /></a>
-                    <p>Performed text classifications on Twitter posts to identify Tweets about disaster with both spaCy and Tensorflow</p>
-                    <p>Submitted to <a href="https://www.kaggle.com/competitions/nlp-getting-started/overview" target="_blank"><u>Kaggle Competitions</u></a></p>
-                    <p>Python | spaCy | TensorFlow</p>
-                    <ul class="actions special">
-                        <li><a href="https://github.com/mshindoh/Kaggle_practice_and_competitions/blob/main/nlp-classification-disaster-tweet.ipynb" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-                        <li><a href="https://www.kaggle.com/code/mshindoh/nlp-classification-disaster-tweet/notebook" target="_blank" class="icon brands fa-kaggle"><span class="label">Kaggle Notebook</span></a></li>
-                    </ul>
-                </article>
-            </section>
-
-        </div>
-
-        <!-- Footer -->
-        <footer id="footer">
-            <section>
-                <ul class="icons alt">
-                    <li><a href="https://www.linkedin.com/in/mshindoh/" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-                    <li><a href="https://github.com/mshindoh" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-                    <li><a href="mailto:shindohm0510@gmail.com" target="_blank" class="icon fa-envelope"><span class="label">Email</span></a></li>
+            <!-- Copyright -->
+            <div id="copyright">
+                <ul>
+                    <li>&copy; 2025 Mizuki Shindoh</li>
+                    <li>
+                        Design:
+                        <a href="https://html5up.net" target="_blank"
+                            >HTML5 UP</a
+                        >
+                    </li>
+                    <li>
+                        Images:
+                        <a href="https://unsplash.com/" target="_blank"
+                            >Unsplash</a
+                        >
+                    </li>
                 </ul>
-            </section>
-        </footer>
-
-        <!-- Copyright -->
-        <div id="copyright">
-            <ul>
-                <li>&copy; 2024 Mizuki Shindoh</li>
-                <li>Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a></li>
-                <li>Images: <a href="https://unsplash.com/" target="_blank">Unsplash</a></li>
-            </ul>
+            </div>
         </div>
 
-    </div>
-
-    <!-- Scripts -->
-    <script src="assets/js/filter.js"></script>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.scrollex.min.js"></script>
-    <script src="assets/js/jquery.scrolly.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
-
-</body>
-
+        <!-- Scripts -->
+        <script src="assets/js/filter.js"></script>
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.scrollex.min.js"></script>
+        <script src="assets/js/jquery.scrolly.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>
